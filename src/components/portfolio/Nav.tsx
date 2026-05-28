@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import myLogo from '../../assets/logo.jpeg'; // Ya logo.png, jo bhi file extension ho
+import myLogo from '../../assets/logo.png'; // Ya logo.png, jo bhi file extension ho
 
 const links = [
   { href: "#work", label: "Work" },
@@ -33,7 +33,7 @@ export function Nav() {
   <img 
     src={myLogo} 
     alt="Sharanya Logo" 
-    className="h-8 w-auto object-contain" // Height (h-8 = 32px) apne minimal design ke hisaab se adjust kar lena
+    className="h-20 w-auto object-contain" // Height (h-8 = 32px) apne minimal design ke hisaab se adjust kar lena
   />
 </a>
 
