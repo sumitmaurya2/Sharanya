@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import myLogo from '../../assets/logo.jpeg'; // Ya logo.png, jo bhi file extension ho
 
 const links = [
   { href: "#work", label: "Work" },
@@ -28,9 +29,13 @@ export function Nav() {
         className="fixed inset-x-0 top-4 z-50 flex justify-center px-4"
       >
         <nav className="glass flex w-full max-w-5xl items-center justify-between rounded-full px-5 py-3 shadow-[var(--shadow-soft)]">
-          <a href="#top" className="font-display text-lg font-semibold tracking-tight" onClick={() => setOpen(false)}>
-            Shona<span className="text-[oklch(0.7_0.15_25)]">.</span>
-          </a>
+          <a href="#top" className="inline-block" onClick={() => setOpen(false)}>
+  <img 
+    src={myLogo} 
+    alt="Sharanya Logo" 
+    className="h-8 w-auto object-contain" // Height (h-8 = 32px) apne minimal design ke hisaab se adjust kar lena
+  />
+</a>
 
           <ul className="hidden items-center gap-7 text-sm md:flex">
             {links.map((l) => (
