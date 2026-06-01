@@ -135,7 +135,7 @@ export function Nav() {
                   onClick={() => setOpen(false)}
                   className="inline-flex items-center justify-center rounded-full bg-foreground px-6 py-4 text-sm font-medium text-background"
                 >
-                  Book a call →
+                  Connect
                 </a>
                 <div className="flex items-center justify-between text-xs uppercase tracking-[0.2em] text-foreground/60">
                   <span>Instagram</span>
