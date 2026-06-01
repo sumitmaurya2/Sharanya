@@ -51,7 +51,7 @@ export function Nav() {
             href="#contact"
             className="hidden rounded-full bg-foreground px-4 py-2 text-xs font-medium text-background transition hover:opacity-90 md:inline-block"
           >
-            Book a call
+            Connect
           </a>
 
           {/* Mobile hamburger */}

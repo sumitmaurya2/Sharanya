@@ -49,7 +49,7 @@ export function Hero() {
             transition={{ delay: 0.9, duration: 0.8 }}
             className="mt-6 max-w-xl text-base leading-relaxed text-foreground/70 sm:text-lg"
           >
-            I'm a beauty, skincare & lifestyle UGC content creator based in India. I started in April 2025 and have already completed 25–30 brand collabs in just over a month. I specialise in aesthetic, satisfying, high quality product videos that feel genuine and engaging. I can create content fast and as per your (brand's) requirements.
+            I'm a beauty, skincare & lifestyle UGC content creator based in India. I started in April 2026 and have already completed 25–30 brand collabs in just over a month. I specialise in aesthetic, satisfying, high quality product videos that feel genuine and engaging. I can create content fast and as per your (brand's) requirements.
           </motion.p>
 
           <motion.div

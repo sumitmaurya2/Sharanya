@@ -1,0 +1,5 @@
+{
+  "installCommand": "npm ci",
+  "buildCommand": "vite build",
+  "framework": "tanstack-start"
+}
