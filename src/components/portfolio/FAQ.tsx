@@ -7,7 +7,6 @@ const faqs = [
   { q: "How long does a project take?", a: "From kickoff to final delivery, most campaigns take 7–14 days. Rush turnarounds are available on request." },
   { q: "Do you offer usage rights for paid ads?", a: "Yes. Standard packages include 6-month organic usage; paid usage and whitelisting can be added per campaign." },
   { q: "What brands do you work with?", a: "Beauty, skincare, fashion, wellness and lifestyle. From indie launches to global household names." },
-  { q: "Can you shoot on location?", a: "Absolutely — I'm based in LA but travel worldwide. Travel and accommodation are quoted separately." },
 ];
 
 export function FAQ() {

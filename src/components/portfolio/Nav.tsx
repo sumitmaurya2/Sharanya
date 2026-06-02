@@ -139,7 +139,6 @@ export function Nav() {
                 </a>
                 <div className="flex items-center justify-between text-xs uppercase tracking-[0.2em] text-foreground/60">
                   <span>Instagram</span>
-                  <span>TikTok</span>
                   <span>Email</span>
                 </div>
               </motion.div>
