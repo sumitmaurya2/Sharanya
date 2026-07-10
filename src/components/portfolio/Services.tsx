@@ -4,7 +4,7 @@ import { Camera, Film, Sparkles, Megaphone, PenLine } from "lucide-react";
 const services = [
   { icon: Film, title: "UGC Video Creation", desc: "Authentic, cinematic short-form content built to convert." },
   { icon: Camera, title: "Product Photography", desc: "Editorial flat-lays & lifestyle stills for socials and ads." },
-  { icon: Sparkles, title: "TikTok / Reels", desc: "On-trend hooks, sounds and pacing tailored to your brand." },
+  { icon: Sparkles, title: "Reels", desc: "On-trend hooks, sounds and pacing tailored to your brand." },
   { icon: Megaphone, title: "Ad Creatives", desc: "Performance-led variations tested for the best ROAS." },
   { icon: PenLine, title: "Script Writing", desc: "Hooks, beats and CTAs informed by what's working now." },
 ];

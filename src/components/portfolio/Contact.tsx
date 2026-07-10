@@ -83,7 +83,7 @@ export function Contact() {
 
         <div className="mt-14 flex flex-wrap items-center justify-center gap-3">
           <SocialBtn
-            href="#"
+            href="https://www.instagram.com/awesome_shona_007/reels/"
             icon={<Instagram size={16} />}
             label="Instagram"
           />

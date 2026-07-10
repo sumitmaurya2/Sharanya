@@ -1,17 +1,47 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import w1 from "@/assets/work-1.jpg";
-import w2 from "@/assets/work-2.jpg";
-import w3 from "@/assets/work-3.jpg";
-import w4 from "@/assets/work-4.jpg";
-import w5 from "@/assets/work-5.jpg";
+import prz from "@/assets/prz.jpeg";
+import w2 from "@/assets/wishcare.jpeg";
+import w3 from "@/assets/bake.jpeg";
+import w4 from "@/assets/niconi.jpeg";
+import w5 from "@/assets/cap.jpeg";
 
 const items = [
-  { src: w1, title: "Bloom Beauty", tag: "Beauty", className: "md:col-span-2 md:row-span-2" },
-  { src: w2, title: "Glow Routine", tag: "Skincare", className: "md:col-span-1" },
-  { src: w3, title: "Butter Edit", tag: "Fashion", className: "md:col-span-1 md:row-span-2" },
-  { src: w4, title: "Slow Mornings", tag: "Lifestyle", className: "md:col-span-1" },
-  { src: w5, title: "Stillness", tag: "Wellness", className: "md:col-span-2" },
+  {
+    src: prz,
+    title: "",
+    tag: "Beauty",
+    link: "https://example.com/beauty",
+    className: "md:col-span-2 md:row-span-2",
+  },
+  {
+    src: w2,
+    title: "",
+    tag: "Skincare",
+    link: "https://example.com/skincare",
+    className: "md:col-span-1",
+  },
+  {
+    src: w3,
+    title: "",
+    tag: "Haircare",
+    link: "https://example.com/fashion",
+    className: "md:col-span-1 md:row-span-2",
+  },
+  {
+    src: w4,
+    title: "",
+    tag: "",
+    link: "https://example.com/lifestyle",
+    className: "md:col-span-1",
+  },
+  {
+    src: w5,
+    title: "",
+    tag: "",
+    link: "https://www.instagram.com/reel/DYoT8EUo2DK/?igsh=MTJ3MGdyc3dtaHhocg%3D%3D",
+    className: "md:col-span-2",
+  },
 ];
 
 function Tile({ item, i }: { item: (typeof items)[number]; i: number }) {
