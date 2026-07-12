@@ -55,12 +55,12 @@ function Tile({ item, i }: { item: (typeof items)[number]; i: number }) {
       className={`group relative overflow-hidden rounded-3xl bg-muted shadow-[var(--shadow-soft)] ${item.className}`}
     >
       <div className="aspect-[4/5] h-full w-full overflow-hidden md:aspect-auto">
-        <img
-          src={item.src}
-          alt={item.title}
-          loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:scale-110"
-        />
+<img
+  src={item.src}
+  alt={item.title}
+  loading="lazy"
+  className="w-full h-full object-contain"
+/>
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
       <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between text-background opacity-0 transition-all duration-500 group-hover:opacity-100">
