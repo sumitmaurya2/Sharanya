@@ -32,7 +32,7 @@ export function About() {
           </motion.h2>
           <div className="mt-8 space-y-5 text-base leading-relaxed text-foreground/70">
             {[
-              "I started my UGC journey in April 2026, and in just over a month, I’ve had the pleasure of bringing 30+ brand campaigns to life. What drives me is creating content that doesn't just look beautiful, but actually connects with the audience.",
+              "I started my UGC journey in April 2026, and in just over a month, I’ve had the pleasure of bringing 40+ brand campaigns to life. What drives me is creating content that doesn't just look beautiful, but actually connects with the audience.",
               "My work lives at the intersection of satisfying aesthetics and genuine storytelling. I specialize in high-quality beauty, skincare, and lifestyle videos that are delivered fast and perfectly tailored to your brand's vision.",
             ].map((p, i) => (
               <motion.p
