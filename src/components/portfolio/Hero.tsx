@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Instagram, Music2, Youtube, ArrowDown } from "lucide-react";
 import { HeroScene } from "./HeroScene";
 import { MagneticButton } from "./MagneticButton";
-import creator from "@/assets/creator.jpg";
+import creator from "@/assets/creator.jpeg";
 
 const headline = "Sharanya".split(" ");
 
