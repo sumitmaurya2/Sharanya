@@ -11,35 +11,35 @@ const items = [
     src: prz,
     title: "",
     tag: "Beauty",
-    link: "https://example.com/beauty",
+    link: "",
     className: "md:col-span-2 md:row-span-2",
   },
   {
     src: w2,
     title: "",
     tag: "Skincare",
-    link: "https://example.com/skincare",
+    link: "https://www.instagram.com/reel/DYEcgGoAIQG/?igsh=MXY4bm1kYnVnd3hodQ%3D%3D",
     className: "md:col-span-1",
   },
   {
     src: w3,
     title: "",
     tag: "Haircare",
-    link: "https://example.com/fashion",
+    link: "https://www.instagram.com/reel/DYrkAlcAd54/?igsh=d3J0dW0wdnZ2OGk2",
     className: "md:col-span-1 md:row-span-2",
   },
   {
     src: w4,
     title: "",
     tag: "",
-    link: "https://example.com/lifestyle",
+    link: "https://www.instagram.com/reel/DYJPhGHoY7O/?igsh=MWVwMmxnNDQ0YXdteg%3D%3D",
     className: "md:col-span-1",
   },
   {
     src: w5,
     title: "",
     tag: "",
-    link: "https://www.instagram.com/reel/DYoT8EUo2DK/?igsh=MTJ3MGdyc3dtaHhocg%3D%3D",
+    link: "https://www.instagram.com/reel/DYoT8EUo2DK/?igsh=NWxxcGZvenE2b3I3",
     className: "md:col-span-2",
   },
 ];
@@ -47,7 +47,7 @@ const items = [
 function Tile({ item, i }: { item: (typeof items)[number]; i: number }) {
   return (
     <motion.a
-      href="#"
+      href={item.link}
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
