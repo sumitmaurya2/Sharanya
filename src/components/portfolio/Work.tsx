@@ -11,7 +11,7 @@ const items = [
     src: prz,
     title: "",
     tag: "Beauty",
-    link: "",
+    link: "https://www.instagram.com/reel/DYrkAlcAd54/?igsh=d3J0dW0wdnZ2OGk2",
     className: "md:col-span-2 md:row-span-2",
   },
   {
